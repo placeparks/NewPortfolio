@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './components/Hero';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import About from './components/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path="/" element={<Hero/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
     </div>

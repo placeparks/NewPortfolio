@@ -12,13 +12,16 @@ import {
 import LottieLoader from 'react-lottie-loader'
 import hello from '../assets/hello.json'
 import welcome from '../assets/welcome.json'
+import About from './About'
+import dev from '../assets/dev.json'
 
 export default function SplitScreen() {
   return (
+    <>
     <div style={{ padding: "5%", backgroundColor: "black" }}>
       <Stack minH={'80vh'} direction={{ base: 'column', md: 'row' }}>
         <Flex flex={1}>
-          <LottieLoader animationData={hello} />
+          <LottieLoader animationData={dev} />
         </Flex>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -50,5 +53,7 @@ export default function SplitScreen() {
         </Flex>
       </Stack>
     </div>
+    <About/>
+    </>
   )
 }
