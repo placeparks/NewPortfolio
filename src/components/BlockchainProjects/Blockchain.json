@@ -1,0 +1,39 @@
+[
+    {
+      "title": "Account Abstraction",
+      "description": "This project exemplifies the next generation of digital asset management on the Ethereum blockchain by utilizing ERC-4337 Account Abstraction for user authentication.",
+      "image": "images/BlockchainProjects/unipass.PNG",
+      "link": "https://aa-puce.vercel.app/"
+    },
+    {
+      "title": "Gated Websites",
+      "description": "No more hassle of username-password combinations or OTPs; simply connect your wallet and gain instant, secure access.",
+      "image": "images/BlockchainProjects/signin.PNG",
+      "link": "https://sign-in-b4xz.vercel.app/"
+    },
+    {
+      "title": "Mirac.eth NFT Gallery",
+      "description": "A sleek, Web3-enabled platform for NFT management with real-time fetching and pagination.",
+      "image": "images/BlockchainProjects/gallery.PNG",
+      "link": "https://gallery-gamma-bay.vercel.app/"
+    },
+    {
+      "title": "Quick Vault",
+      "description": "Create and secure your NFT wallet effortlessly—no complex keys or seed phrases required.",
+      "image": "images/BlockchainProjects/wallet.PNG",
+      "link": "https://wallet-henna-ten.vercel.app/"
+    },
+    {
+        "title": "Purchase NFT with Credit Card",
+      "description": "Interested in providing your users with the convenience of purchasing NFTs using their credit cards? Look no further - explore our solution today.",
+      "image": "images/BlockchainProjects/crossmint.PNG",
+      "link": "https://crossmint.vercel.app/"
+    },
+    {
+        "title": "NFT Mail Notify",
+        "description": "Notify your NFT claimants with ease after claiming their NFT through MailChain's efficient notification system",
+        "image": "images/BlockchainProjects/mailchain.JPG",
+        "link": "https://mailchain.vercel.app/"
+      }
+  ]
+  

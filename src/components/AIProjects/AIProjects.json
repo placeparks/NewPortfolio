@@ -1,0 +1,27 @@
+[
+    {
+      "title": "AI Identifier",
+      "description": "Presenting my AI Image Identifier—an innovation that employs advanced AI and deep learning to swiftly and precisely identify items from uploaded images. This project highlights my commitment to leveraging technology for seamless item recognition, underscoring the transformative power of AI in enhancing visual data interaction.",
+      "image": "images/AIProjects/identifier.PNG",
+      "link": "https://ai-identifier.vercel.app/"
+    },
+    {
+      "title": "Automatic Speech Recognition",
+      "description": "Using advanced AI and neural networks, this technology converts spoken language into accurate text, showcasing its potential in accessibility, transcription services, and voice-controlled applications. Experience the future of communication with ASR.",
+      "image": "images/AIProjects/ASR.PNG",
+      "link": "https://ai-whisper-six.vercel.app/"
+    },
+    {
+      "title": "A Healthy Recipe in no time!",
+      "description": "My AI-powered solution for generating nutritious recipes from your ingredients. Experience cooking convenience and innovation like never before.",
+      "image": "images/AIProjects/recipe.PNG",
+      "link": "https://airec.vercel.app/"
+    },
+    {
+      "title": "PDF Loader project",
+      "description": "A versatile tool designed to enhance document interaction. With the ability to upload PDF files, users can request summaries or ask questions about the content. This project showcases my commitment to streamlining information access and highlights the potential of AI in transforming document management and comprehension.",
+      "image": "images/AIProjects/pdf.PNG",
+      "link": "https://pdf-chatbot-olive.vercel.app/"
+    }
+  ]
+  

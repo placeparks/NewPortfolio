@@ -1,6 +1,6 @@
 import React from 'react'
-import AI from './AIProject'
-import BlockchainProjects from './BlockchainProjects'
+import AI from './AIProjects/AIProject'
+import BlockchainProjects from './BlockchainProjects/BlockchainProjects'
 
 
 function Portfolio() {
