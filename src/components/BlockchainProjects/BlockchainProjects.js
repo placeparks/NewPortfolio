@@ -6,7 +6,7 @@ import projectData from './Blockchain.json';  // Make sure to import your JSON f
 function BlockchainProjects() {
   const totalProjects = projectData.length;
   return (
-    <div style={{ padding: "5%", backgroundColor: "yellowgreen" }}>
+    <div id='blockchain' style={{ padding: "5%", backgroundColor: "yellowgreen" }}>
     <div style={{ display: "flex", flexDirection: "row", marginBottom: "7%" }}>
       <LottieLoader animationData={Blockchain} style={{ height: "200px" }} />
       <h1 style={{ fontFamily: 'Lobster', color: "red", marginTop: "2%" }}>

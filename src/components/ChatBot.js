@@ -86,12 +86,12 @@ const formatTimestamp = (timestamp) => {
   
 
   return (
-    <div>
-      <button onClick={toggleChatVisibility} className="toggle-chat-btn">
-        {chatVisible ? "Hide Chatbot" : "Show Chatbot"}
-      </button>
-      {chatVisible && (
-        <div className="Chatbot animate__animated animate__fadeIn">
+    <div style={{ color:"yellow", position: 'fixed', right: '0', bottom: '0', padding:'10px' }}>
+    <button onClick={toggleChatVisibility} className="toggle-chat-btn">
+      {chatVisible ? "X" : "Show Chatbot"}
+    </button>
+    {chatVisible && (
+  <div className="Chatbot animate__animated animate__fadeIn">
           <div className="Chatbot">
             <h1>Mirac.eth Chatbot</h1>
             <form onSubmit={handleSubmit}>

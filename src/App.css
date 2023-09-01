@@ -15,6 +15,14 @@
   }
 }
 
+
+
+.buzz-effect {
+  display: inline-block;
+  animation: buzz 0.6s ease-in-out;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

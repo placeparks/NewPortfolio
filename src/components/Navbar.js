@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -13,6 +14,23 @@ const Navbar = () => {
       <div className="navbar-nav">
         <a className="nav-link active" aria-current="page" href="#">Home</a>
         <a className="nav-link" href="#">Features</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Portfolio
+          </a>
+          <ul className="dropdown-menu">
+    <li>
+      <Link className="dropdown-item" to="aiprojects" smooth={true} duration={1000}>
+        AI Projects
+      </Link>
+    </li>
+    <li>      <Link className="dropdown-item" to="blockchain" smooth={true} duration={1000}>
+        Blockchain Projects
+      </Link></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
         <a className="nav-link" href="#">Pricing</a>
         <a className="nav-link disabled" aria-disabled="true">Disabled</a>
       </div>

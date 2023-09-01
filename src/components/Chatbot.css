@@ -111,7 +111,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #3f51b5;
+    background-color: #090e27;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -119,6 +119,9 @@
     cursor: pointer;
     border-radius: 5px;
   }
+
+
+  
   /* Add this class for message animation */
 .message-animation {
     animation-duration: 0.5s;

@@ -34,6 +34,18 @@
         "description": "Notify your NFT claimants with ease after claiming their NFT through MailChain's efficient notification system",
         "image": "images/BlockchainProjects/mailchain.JPG",
         "link": "https://mailchain.vercel.app/"
-      }
+      },
+      {
+          "title": "Stake Your Nft",
+          "description": "Mint Nft, Stake it and Earn Rewards.",
+          "image": "images/BlockchainProjects/stake.JPG",
+          "link": "https://stake-nft.vercel.app/"
+        },
+      {
+          "title": "Complete 2 Collect",
+          "description": "Complete tasks to unlock your deposited funds. Get your money back with every goal achieved. Welcome to Accountability App." ,
+          "image": "images/BlockchainProjects/c2c.PNG",
+          "link": "https://complete2-collect.vercel.app/"
+        }
   ]
   
