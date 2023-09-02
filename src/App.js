@@ -7,6 +7,7 @@ import About from './components/About';
 import ChatBot from './components/ChatBot';
 import AIProjects from './components/AIProjects/AIProject';
 import BlockchainProjects from './components/BlockchainProjects/BlockchainProjects';
+import MernProjects from './components/MERNStack/MernProjects';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path='#aiprojects' element={<AIProjects/>}/>
           <Route path='#blockchain' element={<BlockchainProjects/>}/>
+          <Route path='#mern' element={<MernProjects/>}/>
         </Routes>
 
 

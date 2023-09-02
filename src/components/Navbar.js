@@ -27,12 +27,14 @@ const Navbar = () => {
     <li>      <Link className="dropdown-item" to="blockchain" smooth={true} duration={1000}>
         Blockchain Projects
       </Link></li>
+      <li>      <Link className="dropdown-item" to="mern" smooth={true} duration={1000}>
+       Mern Projects
+      </Link></li>
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
         <a className="nav-link" href="#">Pricing</a>
-        <a className="nav-link disabled" aria-disabled="true">Disabled</a>
       </div>
     </div>
   </div>

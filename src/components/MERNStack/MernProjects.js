@@ -16,7 +16,7 @@ function MernProjects() {
   const totalProjects = projectData.length;
 
   return (
-    <div id='nern' style={{marginTop:"5%", padding: '5%', backgroundColor: "#FF6EC7" }}>
+    <div id='mern' style={{marginTop:"5%", padding: '5%', backgroundColor: "#FF6EC7" }}>
       <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '7%' }}>
       <LottieLoader animationData={Mern} style={{ height: '210px'}} />
         <h1 style={{ fontFamily: 'Lobster', color: 'white', marginTop: '3%'}}>
