@@ -104,6 +104,7 @@ Welcome to My Digital Space! With a Master's in Total Quality Management and a f
               _focus={{
                 bg: "gray.200"
               }}
+              onClick={() => window.open("https://bio.link/099", "_blank")}
             >
               Message
             </Button>

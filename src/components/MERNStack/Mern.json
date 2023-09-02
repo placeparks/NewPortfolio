@@ -1,0 +1,21 @@
+[
+        {
+          "title": "Real Estate Property Management System",
+          "description": "This full-stack application serves as a comprehensive solution for real estate property management, connecting property owners, developers, and potential buyers. Built using the MERN stack along with advanced features in Chakra UI for a responsive and modern UI/UX, the platform allows users to browse properties, add new listings, and manage existing ones with ease.",
+          "image": "images/Mern/realestate.PNG",
+          "link": "https://real-estate-frontend-sigma.vercel.app/"
+        },
+        {
+          "title": "My INotebook",
+          "description": "A MERN stack application designed for efficient note management. Users can sign up, log in, and then create, update, or delete their personal notes. Featuring a ReactJS frontend, Express and NodeJS backend, and MongoDB database, the app provides a secure and user-friendly platform for real-time note management.",
+          "image": "images/Mern/notebook.PNG",
+          "link": "https://inotebook-seven-mocha.vercel.app/login"
+        },
+        {
+          "title": "Build Your Personal Blog Platform",
+          "description": "Are you looking to start your own blog website but don't know how to code? Look no further! With Next.js and Firebase, you can easily create and manage your own blog website without any coding experience. Simply log in and start writing articles that will engage and inspire your readers. With the added security of Firebase, you can ensure that your website and content are safe and secure. Start your blogging journey today with Next.js and Firebase.",
+          "image": "images/Mern/blog.JPG",
+          "link": "https://blog-placeparks.vercel.app/"
+        }
+
+]

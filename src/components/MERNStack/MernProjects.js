@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import LottieLoader from 'react-lottie-loader';
 import { motion, useAnimation } from 'framer-motion';
-import Blockchain from '../../assets/blockchain.json';
-import projectData from './Blockchain.json';
+import projectData from './Mern.json';
+import Mern from '../../assets/mern.json';
 
 const buzzEffect = {
   y: [0, -5, 5, -5, 5, 0],
@@ -12,15 +12,15 @@ const buzzEffect = {
   },
 };
 
-function BlockchainProjects() {
+function MernProjects() {
   const totalProjects = projectData.length;
 
   return (
-    <div id='blockchain' style={{ padding: '5%', backgroundColor: 'yellowgreen' }}>
+    <div id='nern' style={{marginTop:"5%", padding: '5%', backgroundColor: "#FF6EC7" }}>
       <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '7%' }}>
-        <LottieLoader animationData={Blockchain} style={{ height: '200px' }} />
-        <h1 style={{ fontFamily: 'Lobster', color: 'red', marginTop: '2%' }}>
-          Blockchain Apps
+      <LottieLoader animationData={Mern} style={{ height: '210px'}} />
+        <h1 style={{ fontFamily: 'Lobster', color: 'white', marginTop: '3%'}}>
+          Mern Stack Apps
           <br />
           <motion.span 
             style={{ fontSize: '20px' }} 
@@ -88,7 +88,7 @@ const Card = ({ project, index }) => {
             </div>
             <div className={`col-md-8 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`}>
               <div className='card-body' style={{ fontFamily: 'Ubuntu', textAlign: 'left', color: 'white' }}>
-                <h5 className='card-title' style={{ fontWeight: '700', color: 'darkgreen' }}>
+                <h5 className='card-title' style={{ fontWeight: '700', color: 'white' }}>
                   {project.title}
                 </h5>
                 <div className='card-text'>
@@ -115,9 +115,9 @@ const Card = ({ project, index }) => {
           </div>
         </div>
       </div>
-      <hr className='mb-4' style={{ color: 'darkgreen' }} />
+      <hr className='mb-4' style={{ color: 'white' }} />
     </motion.div>
   );
 };
 
-export default BlockchainProjects;
+export default MernProjects;
