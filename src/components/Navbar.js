@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
         <a className="nav-link active" aria-current="page" href="#">Home</a>
-        <a className="nav-link" href="#">Features</a>
+        <Link className="nav-link" to="about" smooth={true} duration={1000}>About</Link>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Portfolio
@@ -29,6 +29,12 @@ const Navbar = () => {
       </Link></li>
       <li>      <Link className="dropdown-item" to="mern" smooth={true} duration={1000}>
        Mern Projects
+      </Link></li>
+      <li>      <Link className="dropdown-item" to="pwa" smooth={true} duration={1000}>
+       PWA Projects
+      </Link></li>
+      <li>      <Link className="dropdown-item" to="websites" smooth={true} duration={1000}>
+       Websites
       </Link></li>
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>

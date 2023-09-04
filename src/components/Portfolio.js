@@ -3,6 +3,7 @@ import AI from './AIProjects/AIProject'
 import BlockchainProjects from './BlockchainProjects/BlockchainProjects'
 import MernProjects from './MERNStack/MernProjects'
 import PWAProjects from './PWAProjects/PWAProjects'
+import Websites from './Websites/Websites'
 
 
 function Portfolio() {
@@ -14,6 +15,7 @@ function Portfolio() {
 <BlockchainProjects/>
 <MernProjects/>
 <PWAProjects/>
+<Websites/>
     </div>
   )
 }

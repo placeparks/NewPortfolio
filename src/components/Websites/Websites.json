@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Immerse Yourself in an Interactive Wonderland: My React-Powered Website!",
+    "description": "My website is a magical, highly interactive world that showcases my imaginative skill in React, animations, and Bootstrap design. Explore the fun animations and seamless user-interface and dive into a creative wonderland that's perfect for exploring and showcasing my passion for modern web design.",
+    "image": "images/Websites/Blockwise.JPG",
+    "link": "https://blockwisetech.com/"
+  },
+  {
+    "title": "Immerse Yourself in My Magical React-Powered Website with Chakra UI and Bootstrap!",
+    "description": "Immerse in a Reactive Magical World powered by Chakra UI and Bootstrap. Witness intuitive navigation with captivating visuals and mesmerizing transitions combined into a responsive website that caters to every device. Experience the peak of modern web design with my latest project on my portfolio!",
+    "image": "images/Websites/dream.JPG",
+    "link": "https://dream-rock.vercel.app/"
+  },
+  {
+    "title": "A Showcase of My Stunning React-Powered Website",
+    "description": "My latest website experience is a testament to the power of Chakra UI, React, and Bootstrap in creating a stunning, immersive web design. From the seamless transitions to the captivating animations, my website takes visitors on a visually stunning journey, showcasing my passion for modern web design. Chakra UI gives the website a sleek, professional look and feel, while the Bootstrap framework ensured a responsive design that adapts to different devices.",
+    "image": "images/Websites/Nixxsol.JPG",
+    "link": "https://nixxsol.vercel.app/"
+  },
+  {
+    "title": "QR-App",
+    "description": "I created a dynamic website using React that seamlessly integrates AI-generated video content to meet my client's unique needs. This project showcases my ability to combine cutting-edge technology with web development to deliver engaging and personalized user experiences.",
+    "image": "images/Websites/qrapp.PNG",
+    "link": "https://qr-appp.netlify.app/"
+  }
+  
+  
+
+]

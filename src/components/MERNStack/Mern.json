@@ -16,6 +16,12 @@
           "description": "Are you looking to start your own blog website but don't know how to code? Look no further! With Next.js and Firebase, you can easily create and manage your own blog website without any coding experience. Simply log in and start writing articles that will engage and inspire your readers. With the added security of Firebase, you can ensure that your website and content are safe and secure. Start your blogging journey today with Next.js and Firebase.",
           "image": "images/Mern/blog.JPG",
           "link": "https://blog-placeparks.vercel.app/"
+        },
+        {
+          "title": "ElementalTable: Interactive Periodic Table Builder",
+          "description": "I designed a MERN project that presents information in the format of a periodic table. This interactive application enables users to build customized 'periodic tables' with the ability to compare, delete, and block specific elements. It showcases my expertise in full-stack development and creating unique, interactive representations of data",
+          "image": "images/Mern/map.PNG",
+          "link": "https://dashboard-map-iota.vercel.app/"
         }
 
 ]

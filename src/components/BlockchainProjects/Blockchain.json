@@ -95,7 +95,13 @@
                         "description": "This rental lease management app utilizes blockchain technology for secure and transparent transactions. Landlords can initialize lease contracts, while tenants can sign leases, pay rent, and check out. The intuitive interface offers separate sections for landlord and tenant interactions, leveraging the Ethereum blockchain for decentralized contract execution." ,
                         "image": "images/BlockchainProjects/rent.JPG",
                         "link": "https://my-rental-app.vercel.app/"
-                      }
+                      },
+                      {
+                          "title": "NFT Marketplace",
+                          "description": "This NFT marketplace is a decentralized application that allows users to buy and sell NFTs. It is built on the EVM blockchain and uses smart contracts to facilitate transactions. The marketplace is designed to be user-friendly, with an intuitive interface that makes it easy for anyone to use." ,
+                          "image": "images/BlockchainProjects/market.JPG",
+                          "link": "https://marketplace-alpha-wine.vercel.app/"
+                        }
         
   ]
   

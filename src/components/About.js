@@ -15,7 +15,7 @@ import hannan from "../assets/hannan.jpg"
 
 export default function socialProfileWithImageHorizontal() {
   return (
-    <div style={{backgroundColor:"#00BFFF", border:"solid black 40px"}}>
+    <div id="about" style={{backgroundColor:"#00BFFF", border:"solid black 40px"}}>
     <Center py={6}>
       <Stack
         borderWidth="1px"
