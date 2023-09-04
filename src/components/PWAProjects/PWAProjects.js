@@ -19,7 +19,7 @@ function PWAProjects() {
     <div id='pwa' style={{marginTop:"5%", padding: '5%', backgroundColor: "#ffed45" }}>
       <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '2%' }}>
       <LottieLoader animationData={Pwa} style={{ height: '210px'}} />
-        <h1 style={{ fontFamily: 'Lobster', color: 'black', marginTop: '3%'}}>
+        <h1 style={{ color: 'black', marginTop: '3%'}}>
           Progressive Web Apps
           <br />
           <h6 style={{width:"100vh", paddingTop:"2%", marginBottom:"-20px"}}>Experience the future with Progressive Web Apps (PWAs). No downloads, no updates—simply open your browser, visit the PWA site, and you're in! Enjoy lightning-fast load times, offline access, and the freedom to explore. Say goodbye to app store hassles and hello to a smoother, more efficient web experience!</h6>
@@ -34,7 +34,7 @@ function PWAProjects() {
         </h1>
       
       </div>
-      <div style={{color:"black", fontFamily: 'Lobster', marginBottom:"5%"}}>
+      <div style={{color:"black",  marginBottom:"5%"}}>
         <h3>Installation Instructions</h3>
       <ul style={{listStyleType:"none"}}>
       <p>📱 On Android:</p>
@@ -127,9 +127,10 @@ const Card = ({ project, index }) => {
                     borderRadius: '5px',
                     fontWeight: 'bold',
                     cursor: 'pointer',
+                    marginTop:"1%"
                   }}
                 >
-                  Go to Link
+                  Live Link
                 </button>
               </div>
             </div>

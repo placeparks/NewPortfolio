@@ -18,7 +18,7 @@
           "link": "https://blog-placeparks.vercel.app/"
         },
         {
-          "title": "ElementalTable: Interactive Periodic Table Builder",
+          "title": "Interactive Periodic Table Map",
           "description": "I designed a MERN project that presents information in the format of a periodic table. This interactive application enables users to build customized 'periodic tables' with the ability to compare, delete, and block specific elements. It showcases my expertise in full-stack development and creating unique, interactive representations of data",
           "image": "images/Mern/map.PNG",
           "link": "https://dashboard-map-iota.vercel.app/"

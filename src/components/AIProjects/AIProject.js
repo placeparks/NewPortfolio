@@ -43,10 +43,10 @@ function AIProjects() {
                         className="btn"
                         style={{
                           backgroundColor: "#f0f0f0", color: "black", border: "none",
-                          borderRadius: "5px", fontWeight: "bold", cursor: "pointer"
+                          borderRadius: "5px", fontWeight: "bold", cursor: "pointer", marginTop:"1%"
                         }}
                       >
-                        Go to Link
+                        Live Link
                       </button>
                     </div>
                   </div>

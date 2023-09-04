@@ -106,9 +106,10 @@ const Card = ({ project, index }) => {
                     borderRadius: '5px',
                     fontWeight: 'bold',
                     cursor: 'pointer',
+                    marginTop:"1%"
                   }}
                 >
-                  Go to Link
+                  Live Link
                 </button>
               </div>
             </div>
