@@ -65,7 +65,37 @@
                 "description": "Explore a cutting-edge DApp that enables secure token whitelisting, personalized messaging, and easy token claims within the blockchain network. Enhance trust and security in token transfers while fostering an inclusive token economy. Embrace the future of blockchain technology today!" ,
                 "image": "images/BlockchainProjects/BToken.JPG",
                 "link": "https://blockchain-token-swap-app.vercel.app/"
-              }
+              },
+              {
+                  "title": "Your Digital Healthcare Companion",
+                  "description": "Welcome to our Healthcare System! Our platform provides a secure way to manage your medical records, appointments, and prescriptions in one place. Say goodbye to the hassle of maintaining paper records and managing multiple appointments with different healthcare providers. With our user-friendly interface, you can easily keep track of your health history, share your medical information with authorized healthcare professionals, and receive personalized care. Join us today and take control of your health journey!" ,
+                  "image": "images/BlockchainProjects/healthcare.JPG",
+                  "link": "https://health-care-liard.vercel.app/"
+                },
+                {
+                  "title": "Join the early adopters' club with our whitelist dapp for Crypto Devs",
+                  "description": "You aim to grant early supporters exclusive access to your collection by developing a whitelist decentralized application for Crypto Devs. The focus is on facilitating early access for initial adopters, with plans to eventually integrate it with the NFT collection." ,
+                  "image": "images/BlockchainProjects/web1.JPG",
+                  "link": "https://nft-collection-liart-iota.vercel.app/"
+                },
+                {
+                    "title": "Own a piece of history with our NFT collection. Join our whitelist now!",
+                    "description": "Check out our highly anticipated NFT collection. Join our whitelist for the presale minting event to secure your favorite pieces before public minting begins. Don't miss your chance to own a piece of history! Sign up today and be a part of this exciting new chapter in the world of NFTs." ,
+                    "image": "images/BlockchainProjects/web2.JPG",
+                    "link": "https://nft-collection-liart-iota.vercel.app/"
+                  },
+                  {
+                      "title": "Unleashing Nitty Dev Token: Empowering the Crypto Community with Innovation",
+                      "description": "Introducing the Nitty Dev Token, a unique project designed for the Crypto Community. As a token creator, we've rewarded our NFT holders with free tokens, while also offering purchase options in ETH for others. Delve into this innovative project and unveil the potential that awaits you." ,
+                      "image": "images/BlockchainProjects/ICO.JPG",
+                      "link": "https://nitty-dev-tokens.vercel.app/"
+                    },
+                    {
+                        "title": "Revolutionizing Rentals: Secure Blockchain Lease Management",
+                        "description": "This rental lease management app utilizes blockchain technology for secure and transparent transactions. Landlords can initialize lease contracts, while tenants can sign leases, pay rent, and check out. The intuitive interface offers separate sections for landlord and tenant interactions, leveraging the Ethereum blockchain for decentralized contract execution." ,
+                        "image": "images/BlockchainProjects/rent.JPG",
+                        "link": "https://my-rental-app.vercel.app/"
+                      }
         
   ]
   
