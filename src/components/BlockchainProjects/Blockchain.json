@@ -1,13 +1,13 @@
 [
     {
       "title": "Account Abstraction",
-      "description": "This project exemplifies the next generation of digital asset management on the Ethereum blockchain by utilizing ERC-4337 Account Abstraction for user authentication.",
+      "description": "This project exemplifies the next generation of digital asset management on the Ethereum blockchain by utilizing ERC-4337 Account Abstraction for user authentication. Create Smart Wallet with just User name and Password",
       "image": "images/BlockchainProjects/unipass.PNG",
       "link": "https://aa-puce.vercel.app/"
     },
     {
       "title": "Gated Websites",
-      "description": "No more hassle of username-password combinations or OTPs; simply connect your wallet and gain instant, secure access.",
+      "description": "No more hassle of username-password combinations or OTPs, simply connect your wallet and gain instant, secure access.",
       "image": "images/BlockchainProjects/signin.PNG",
       "link": "https://sign-in-b4xz.vercel.app/"
     },
@@ -19,7 +19,7 @@
     },
     {
       "title": "Quick Vault",
-      "description": "Create and secure your NFT wallet effortlessly—no complex keys or seed phrases required.",
+      "description": "Create and secure your NFT wallet effortlessly—no complex keys or seed phrases required. You can Continue as Guest and create your wallet with just a password.",
       "image": "images/BlockchainProjects/wallet.PNG",
       "link": "https://wallet-henna-ten.vercel.app/"
     },
@@ -50,13 +50,13 @@
    
         {
             "title": "Token Bound Account",
-            "description": "Unlock the future of digital asset management with our Token-Bound Wallet. This unique solution allows you not only to buy and sell NFTs but also to transfer the entire wallet simply by exchanging a special Account NFT. Effortlessly gift or sell your entire digital portfolio with a single transaction." ,
+            "description": "Unlock the future of digital asset management with our Token-Bound Wallet. This unique solution allows you to transfer the entire wallet simply by exchanging a special Account NFT. Effortlessly gift or sell your entire digital portfolio with a single transaction." ,
             "image": "images/BlockchainProjects/TBA.PNG",
             "link": "https://token-bound-wallet.vercel.app/"
           },
           {
               "title": "Purchase with Credit Card",
-              "description": "Transform your credit card into a key to the NFT universe. Purchasing unique digital assets has never been easier. Backed by Paper.xyz technology." ,
+              "description": "Transform your credit card into a key to the NFT universe. Purchasing unique digital assets has never been easier. Purchase NFT using your credit card." ,
               "image": "images/BlockchainProjects/creditcard.PNG",
               "link": "https://paper-wallet-thirdweb.vercel.app/"
             },
@@ -79,14 +79,14 @@
                   "link": "https://nft-collection-liart-iota.vercel.app/"
                 },
                 {
-                    "title": "Own a piece of history with our NFT collection. Join our whitelist now!",
-                    "description": "Check out our highly anticipated NFT collection. Join our whitelist for the presale minting event to secure your favorite pieces before public minting begins. Don't miss your chance to own a piece of history! Sign up today and be a part of this exciting new chapter in the world of NFTs." ,
+                    "title": "Join Early Whitelisting for NFT Collection",
+                    "description": "The App allows you to join the whitelist for the NFT collection. The app is built on the Ethereum blockchain and uses smart contracts to facilitate transactions. The app is designed to be user-friendly, with an intuitive interface that makes it easy for anyone to use." ,
                     "image": "images/BlockchainProjects/web2.JPG",
                     "link": "https://nft-collection-liart-iota.vercel.app/"
                   },
                   {
-                      "title": "Unleashing Nitty Dev Token: Empowering the Crypto Community with Innovation",
-                      "description": "Introducing the Nitty Dev Token, a unique project designed for the Crypto Community. As a token creator, we've rewarded our NFT holders with free tokens, while also offering purchase options in ETH for others. Delve into this innovative project and unveil the potential that awaits you." ,
+                      "title": "Let your Users Claim Free Tokens",
+                      "description": "Introducing the Nitty Dev Token project, this app allows you to connect your wallet and claim free tokens.",
                       "image": "images/BlockchainProjects/ICO.JPG",
                       "link": "https://nitty-dev-tokens.vercel.app/"
                     },
