@@ -55,8 +55,8 @@
             "link": "https://token-bound-wallet.vercel.app/"
           },
           {
-              "title": "Card To Canvas",
-              "description": "Transform your credit card into a key to the NFT universe. With CardToCanvas, purchasing unique digital assets has never been easier. Backed by Paper.xyz technology." ,
+              "title": "Purchase with Credit Card",
+              "description": "Transform your credit card into a key to the NFT universe. Purchasing unique digital assets has never been easier. Backed by Paper.xyz technology." ,
               "image": "images/BlockchainProjects/creditcard.PNG",
               "link": "https://paper-wallet-thirdweb.vercel.app/"
             },
