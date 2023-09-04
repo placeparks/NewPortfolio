@@ -86,7 +86,7 @@ const formatTimestamp = (timestamp) => {
   
 
   return (
-    <div style={{ color:"yellow", position: 'fixed', right: '0', bottom: '0', padding:'10px' }}>
+    <div style={{ color:"black", position: 'fixed', right: '0', bottom: '0', padding:'10px', backgroundColor:"white" }}>
     <button onClick={toggleChatVisibility} className="toggle-chat-btn">
       {chatVisible ? "X" : "Show Chatbot"}
     </button>

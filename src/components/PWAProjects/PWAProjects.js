@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import LottieLoader from 'react-lottie-loader';
 import { motion, useAnimation } from 'framer-motion';
-import Blockchain from '../../assets/blockchain.json';
-import projectData from './Blockchain.json';
+import projectData from './PWA.json';
+import Pwa from '../../assets/pwa.json';
 
 const buzzEffect = {
   y: [0, -5, 5, -5, 5, 0],
@@ -12,26 +12,47 @@ const buzzEffect = {
   },
 };
 
-function BlockchainProjects() {
+function PWAProjects() {
   const totalProjects = projectData.length;
 
   return (
-    <div id='blockchain' style={{ padding: '5%', backgroundColor: 'yellowgreen' }}>
+    <div id='pwa' style={{marginTop:"5%", padding: '5%', backgroundColor: "#ffed45" }}>
       <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '2%' }}>
-        <LottieLoader animationData={Blockchain} style={{ height: '200px' }} />
-        <h1 style={{ fontFamily: 'Lobster', color: 'red', marginTop: '2%' }}>
-          Blockchain Apps
+      <LottieLoader animationData={Pwa} style={{ height: '210px'}} />
+        <h1 style={{ fontFamily: 'Lobster', color: 'black', marginTop: '3%'}}>
+          Progressive Web Apps
           <br />
+          <h6 style={{width:"100vh", paddingTop:"2%", marginBottom:"-20px"}}>Experience the future with Progressive Web Apps (PWAs). No downloads, no updates—simply open your browser, visit the PWA site, and you're in! Enjoy lightning-fast load times, offline access, and the freedom to explore. Say goodbye to app store hassles and hello to a smoother, more efficient web experience!</h6>
+        <br/>
           <motion.span 
-            style={{ fontSize: '20px' }} 
+            style={{ fontSize: '20px'}} 
             initial={{ y: 0 }} 
             animate={buzzEffect}
           >
             Total Number of Projects: {totalProjects}
           </motion.span>
         </h1>
+      
       </div>
-      <div className='container' style={{ color: 'white' }}>
+      <div style={{color:"black", fontFamily: 'Lobster', marginBottom:"5%"}}>
+        <h3>Installation Instructions</h3>
+      <ul style={{listStyleType:"none"}}>
+      <p>📱 On Android:</p>
+      <li >1. Open the PWA site in Chrome</li>
+      <li>2. Tap the three-dot menu in the top right corner</li>
+          <li>Select 'Add to Home screen'🚀</li>
+      <p>🍎 On iOS:</p>
+      <li>1. Open the PWA site in Safari</li>
+      <li>2. Tap the share button at the bottom of the screen</li>
+          <li>Select 'Add to Home Screen'🚀</li>
+          <p>🖥️ On Desktop:</p>
+          <li>1. Open the PWA site in Chrome</li>
+          <li>2. Click the plus sign in the address bar</li>
+          <li>Select 'Install'🚀</li>
+          </ul>
+      </div>
+      
+      <div className='container' style={{ color: 'black' }}>
         {projectData.map((project, index) => (
           <Card project={project} index={index} key={index} />
         ))}
@@ -87,8 +108,8 @@ const Card = ({ project, index }) => {
               <img src={project.image} className='img-fluid rounded-start' alt={project.title} />
             </div>
             <div className={`col-md-8 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`}>
-              <div className='card-body' style={{ fontFamily: 'Ubuntu', textAlign: 'left', color: 'white' }}>
-                <h5 className='card-title' style={{ fontWeight: '700', color: 'darkgreen' }}>
+              <div className='card-body' style={{ fontFamily: 'Ubuntu', textAlign: 'left', color: 'black' }}>
+                <h5 className='card-title' style={{ fontWeight: '700', color: 'black' }}>
                   {project.title}
                 </h5>
                 <div className='card-text'>
@@ -115,9 +136,9 @@ const Card = ({ project, index }) => {
           </div>
         </div>
       </div>
-      <hr className='mb-4' style={{ color: 'darkgreen' }} />
+      <hr className='mb-4' style={{ color: 'black' }} />
     </motion.div>
   );
 };
 
-export default BlockchainProjects;
+export default PWAProjects;

@@ -47,12 +47,7 @@
           "image": "images/BlockchainProjects/c2c.PNG",
           "link": "https://complete2-collect.vercel.app/"
         },
-        {
-          "title": "Progressive Web App",
-          "description": "My project, Unipass, is a Progressive Web App offering a native-app-like experience, offline capability, and cross-platform accessibility.\nHow to Install:\n- On Android: Open the app in a web browser, tap on the three-dot menu, and select 'Add to Home screen'.\n- On iOS: Open the app in Safari, tap the 'Share' button, and then choose 'Add to Home Screen'.\n- On Desktop: Open the app in a web browser, and look for a '+' symbol in the address bar or browser options to install.",
-          "image": "images/BlockchainProjects/unipass.PNG",
-          "link": "https://aa-puce.vercel.app/"
-        },
+   
         {
             "title": "Token Bound Account",
             "description": "Unlock the future of digital asset management with our Token-Bound Wallet. This unique solution allows you not only to buy and sell NFTs but also to transfer the entire wallet simply by exchanging a special Account NFT. Effortlessly gift or sell your entire digital portfolio with a single transaction." ,

@@ -18,7 +18,7 @@ function AIProjects() {
  
   return (
     <div id='aiprojects' style={{padding:"5%"}}>
-    <div style={{display:"flex", flexDirection:"row", marginBottom:"7%"}}>
+    <div style={{display:"flex", flexDirection:"row", marginBottom:"2%"}}>
       <LottieLoader animationData={AI} style={{height:"200px"}} />
       <h1 style={{ fontFamily:'Lobster',color:"#FF6EC7", marginTop:"2%"}}>AI Wonders<br/>
       <span style={{fontSize:"20px"}} data-aos="fade-in"> Total Number of Projects: {totalProjects}

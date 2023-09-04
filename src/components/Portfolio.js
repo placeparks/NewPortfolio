@@ -2,6 +2,7 @@ import React from 'react'
 import AI from './AIProjects/AIProject'
 import BlockchainProjects from './BlockchainProjects/BlockchainProjects'
 import MernProjects from './MERNStack/MernProjects'
+import PWAProjects from './PWAProjects/PWAProjects'
 
 
 function Portfolio() {
@@ -12,6 +13,7 @@ function Portfolio() {
 <AI/>
 <BlockchainProjects/>
 <MernProjects/>
+<PWAProjects/>
     </div>
   )
 }
