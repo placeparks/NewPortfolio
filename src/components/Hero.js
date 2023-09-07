@@ -17,6 +17,7 @@ import dev from '../assets/dev.json'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Tech from './Tech/Tech'
+import MainSection from './MainSections'
 
 export default function SplitScreen() {
   return (
@@ -56,7 +57,7 @@ export default function SplitScreen() {
         </Flex>
       </Stack>
     </div>
-    <About/>
+ <MainSection/>
     <Portfolio  />
 
     <Tech/>

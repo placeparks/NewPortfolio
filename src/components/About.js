@@ -9,14 +9,34 @@ import {
   Image,
   Stack,
   Text,
-  useColorModeValue
+  useColorModeValue,
+  Box,
+  useMediaQuery
 } from "@chakra-ui/react"
 import hannan from "../assets/hannan.jpg"
+import { useAboutRef } from './AboutRefContext';  
+import BallCanvas from './canvas/Ball'; 
+import { technologies } from "./Tech/constants";
 
-export default function socialProfileWithImageHorizontal() {
-  return (
-    <div id="about" style={{backgroundColor:"#00BFFF", border:"solid black 40px"}}>
-    <Center py={6}>
+
+export default function SocialProfileWithImageHorizontal() {
+    const aboutRef = useAboutRef();
+    const [isSmallerScreen] = useMediaQuery("(max-width: 600px)");
+    const ballSize = isSmallerScreen ? 1.55 : 2.75;  // set sizes as you prefer
+  
+    return (
+      <Box ref={aboutRef} id="about" >
+        <Flex direction={isSmallerScreen ? "column" : "row"} alignItems="center" justifyContent="center">
+          
+        {!isSmallerScreen && (
+      <Box flex="1" textAlign="left" pl={4}>
+        {technologies.slice(0, 5).map((technology) => (
+          <BallCanvas key={technology.name} icon={technology.icon} size={ballSize} />
+        ))}
+      </Box>
+    )}
+  
+      <Center py={6} >
       <Stack
         borderWidth="1px"
         borderRadius="lg"
@@ -130,6 +150,23 @@ Welcome to My Digital Space! With a Master's in Total Quality Management and a f
         </Stack>
       </Stack>
     </Center>
-    </div>
-  )
+       {/* Balls on the right */}
+       {!isSmallerScreen && (
+      <Box flex="1" textAlign="left" pl={4}>
+        {technologies.slice(5).map((technology) => (
+          <BallCanvas key={technology.name} icon={technology.icon} size={ballSize} />
+        ))}
+      </Box>
+    )}
+    {/* Balls on small screen */}
+    {isSmallerScreen && (
+      <Flex direction="row" justifyContent="space-between" gap={1.5} width="100%" mt={4}>
+        {technologies.map((technology) => (
+          <BallCanvas key={technology.name} icon={technology.icon} size={ballSize} />
+        ))}
+      </Flex>
+    )}
+      </Flex>
+    </Box>
+  );
 }
