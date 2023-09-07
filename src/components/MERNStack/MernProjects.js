@@ -3,6 +3,8 @@ import LottieLoader from 'react-lottie-loader';
 import { motion, useAnimation } from 'framer-motion';
 import projectData from './Mern.json';
 import Mern from '../../assets/mern.json';
+import {Tilt} from "react-tilt";
+import { fadeIn } from '../../utils/motion';
 
 const buzzEffect = {
   y: [0, -5, 5, -5, 5, 0],
@@ -75,17 +77,23 @@ const Card = ({ project, index }) => {
 
   return (
     <motion.div
-      className='row'
-      ref={cardRef}
-      initial={{ y: 50, opacity: 0 }}
-      animate={controls}
-    >
-      <div className='col-md-6 w-100'>
-        <div className='card mb-3' style={{ border: 'none', backgroundColor: 'transparent' }}>
-          <div className='row g-0'>
-            <div className={`col-md-4 ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`}>
+    className='row'
+    ref={cardRef}
+    initial={{ y: 50, opacity: 0 }}
+    animate={controls}
+  >
+    <div className='col-md-6 w-100'>
+      <div className='card mb-3' style={{ border: 'none', backgroundColor: 'transparent' }}>
+        <div className='row g-0'>
+          <div className={`col-md-4 ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`}>
+          <Tilt className='xs:w-[250px] w-full'>
+  <motion.div
+    variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
               <img src={project.image} className='img-fluid rounded-start' alt={project.title} />
-            </div>
+              </motion.div>
+            </Tilt>
+    
+          </div>
             <div className={`col-md-8 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`}>
               <div className='card-body' style={{ fontFamily: 'Ubuntu', textAlign: 'left', color: 'white' }}>
                 <h5 className='card-title' style={{ fontWeight: '700', color: 'white' }}>

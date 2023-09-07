@@ -4,6 +4,9 @@ import AI from '../../assets/aibot.json'
 import projectData from './AIProjects.json'  // Make sure to import your JSON file
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Tilt } from 'react-tilt';
+import { fadeIn } from '../../utils/motion';
+import { motion } from 'framer-motion';
 
 
 function AIProjects() {
@@ -32,8 +35,11 @@ function AIProjects() {
               <div className="card mb-3" data-aos="zoom-in"  data-aos-easing="ease-in-back" style={{ border: "none", backgroundColor: "transparent" }}>
                 <div className="row g-0">
                   <div className={`col-md-4 ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`}>
-                    <img src={project.image} className="img-fluid rounded-start" alt={project.title} />
-                  </div>
+                  <Tilt className='xs:w-[250px] w-full'>
+                      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+                        <img src={project.image} className="img-fluid rounded-start" alt={project.title} />
+                      </motion.div>
+                    </Tilt>                  </div>
                   <div className={`col-md-8 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`}>
                     <div className="card-body" style={{ fontFamily: 'Ubuntu', textAlign: "left", color: "white" }}>
                       <h5 className="card-title" style={{ fontWeight: "700" }}>{project.title}</h5>

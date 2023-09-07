@@ -10,6 +10,7 @@ import BlockchainProjects from './components/BlockchainProjects/BlockchainProjec
 import MernProjects from './components/MERNStack/MernProjects';
 import PWAProjects from './components/PWAProjects/PWAProjects';
 import Websites from './components/Websites/Websites';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -26,8 +27,6 @@ function App() {
           <Route path='#pwa' element={<PWAProjects/>}/>
           <Route path='#websites' element={<Websites/>}/>
         </Routes>
-
-
       </BrowserRouter>
     </div>
   );

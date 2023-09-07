@@ -15,6 +15,8 @@ import welcome from '../assets/welcome.json'
 import About from './About'
 import dev from '../assets/dev.json'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
+import Tech from './Tech/Tech'
 
 export default function SplitScreen() {
   return (
@@ -56,6 +58,8 @@ export default function SplitScreen() {
     </div>
     <About/>
     <Portfolio  />
+
+    <Tech/>
     </>
   )
 }

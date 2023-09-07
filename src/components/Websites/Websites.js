@@ -3,6 +3,8 @@ import LottieLoader from 'react-lottie-loader';
 import { motion, useAnimation } from 'framer-motion';
 import projectData from './Websites.json';
 import Web from '../../assets/websites.json';
+import {Tilt} from "react-tilt";
+import { fadeIn } from '../../utils/motion';
 
 const buzzEffect = {
   y: [0, -5, 5, -5, 5, 0],
@@ -85,7 +87,13 @@ const Card = ({ project, index }) => {
         <div className='card mb-3' style={{ border: 'none', backgroundColor: 'transparent' }}>
           <div className='row g-0'>
             <div className={`col-md-4 ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`}>
-              <img src={project.image} className='img-fluid rounded-start' alt={project.title} />
+            <Tilt className='xs:w-[250px] w-full'>
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
+                <img src={project.image} className='img-fluid rounded-start' alt={project.title} />
+                </motion.div>
+              </Tilt>
+      
             </div>
             <div className={`col-md-8 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`}>
               <div className='card-body' style={{ fontFamily: 'Ubuntu', textAlign: 'left', color: 'white' }}>

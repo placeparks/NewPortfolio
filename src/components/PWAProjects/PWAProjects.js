@@ -3,6 +3,8 @@ import LottieLoader from 'react-lottie-loader';
 import { motion, useAnimation } from 'framer-motion';
 import projectData from './PWA.json';
 import Pwa from '../../assets/pwa.json';
+import {Tilt} from "react-tilt";
+import { fadeIn } from '../../utils/motion';
 
 const buzzEffect = {
   y: [0, -5, 5, -5, 5, 0],
@@ -15,15 +17,38 @@ const buzzEffect = {
 function PWAProjects() {
   const totalProjects = projectData.length;
 
+  const smallScreenStyle = {
+    flexDirection: 'column',
+    alignItems: 'center',
+    textAlign: 'center'
+  };
+
+  const largeScreenStyle = {
+    flexDirection: 'row',
+    marginBottom: '2%'
+  };
+
+  const smallScreenTextStyle = {
+    width: '90vw',
+    fontSize: '16px'
+  };
+
+  const largeScreenTextStyle = {
+    width: '100vh',
+    fontSize: '20px'
+  };
+
   return (
     <div id='pwa' style={{marginTop:"5%", padding: '5%', backgroundColor: "#ffed45" }}>
-      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '2%' }}>
-      <LottieLoader animationData={Pwa} style={{ height: '210px'}} />
-        <h1 style={{ color: 'black', marginTop: '3%'}}>
+      <div style={{ display: 'flex', ...((window.innerWidth <= 768) ? smallScreenStyle : largeScreenStyle) }}>
+        <LottieLoader animationData={Pwa} style={{ height: '210px', marginBottom: window.innerWidth <= 768 ? '20px' : '0px' }} />
+        <h1 style={{ color: 'black', marginTop: '3%' }}>
           Progressive Web Apps
           <br />
-          <h6 style={{width:"100vh", paddingTop:"2%", marginBottom:"-20px"}}>Experience the future with Progressive Web Apps (PWAs). No downloads, no updates—simply open your browser, visit the PWA site, and you're in! Enjoy lightning-fast load times, offline access, and the freedom to explore. Say goodbye to app store hassles and hello to a smoother, more efficient web experience!</h6>
-        <br/>
+          <p style={{...((window.innerWidth <= 768) ? smallScreenTextStyle : largeScreenTextStyle), paddingTop:"2%", marginBottom:"-20px"}}>
+            Experience the future with Progressive Web Apps (PWAs). No downloads, no updates—simply open your browser, visit the PWA site, and you're in! Enjoy lightning-fast load times, offline access, and the freedom to explore. Say goodbye to app store hassles and hello to a smoother, more efficient web experience!
+          </p>
+          <br/>
           <motion.span 
             style={{ fontSize: '20px'}} 
             initial={{ y: 0 }} 
@@ -32,7 +57,6 @@ function PWAProjects() {
             Total Number of Projects: {totalProjects}
           </motion.span>
         </h1>
-      
       </div>
       <div style={{color:"black",  marginBottom:"5%"}}>
         <h3>Installation Instructions</h3>
@@ -105,8 +129,15 @@ const Card = ({ project, index }) => {
         <div className='card mb-3' style={{ border: 'none', backgroundColor: 'transparent' }}>
           <div className='row g-0'>
             <div className={`col-md-4 ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`}>
-              <img src={project.image} className='img-fluid rounded-start' alt={project.title} />
+            <Tilt className='xs:w-[250px] w-full'>
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
+                <img src={project.image} className='img-fluid rounded-start' alt={project.title} />
+                </motion.div>
+              </Tilt>
+      
             </div>
+
             <div className={`col-md-8 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`}>
               <div className='card-body' style={{ fontFamily: 'Ubuntu', textAlign: 'left', color: 'black' }}>
                 <h5 className='card-title' style={{ fontWeight: '700', color: 'black' }}>
