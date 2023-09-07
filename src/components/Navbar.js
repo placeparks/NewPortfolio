@@ -40,7 +40,8 @@ const Navbar = () => {
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <a className="nav-link" href="#">Pricing</a>
+        <Link className="nav-link" to="tech" smooth={true} duration={1000}>Technologies</Link>
+        <Link className="nav-link" to="contact" smooth={true} duration={1000}>Contact</Link>
       </div>
     </div>
   </div>

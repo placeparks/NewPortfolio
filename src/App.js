@@ -11,12 +11,11 @@ import MernProjects from './components/MERNStack/MernProjects';
 import PWAProjects from './components/PWAProjects/PWAProjects';
 import Websites from './components/Websites/Websites';
 import Contact from './components/Contact/Contact';
-import {AboutRefProvider} from './components/AboutRefContext';
+import Tech from './components/Tech/Tech'
 
 function App() {
   return (
     <div className="App">
-      <AboutRefProvider>
       <BrowserRouter>
       <Navbar/>
     <ChatBot /> 
@@ -28,9 +27,10 @@ function App() {
           <Route path='#mern' element={<MernProjects/>}/>
           <Route path='#pwa' element={<PWAProjects/>}/>
           <Route path='#websites' element={<Websites/>}/>
+          <Route path='#tech' element={<Tech/>}/>
+          <Route path='#contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
-      </AboutRefProvider>
     </div>
   );
 }

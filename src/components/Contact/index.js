@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { staggerContainer } from "../../utils/motion";
 
 const StarWrapper = (Component, idName) =>
@@ -10,7 +9,7 @@ const StarWrapper = (Component, idName) =>
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
-        className='max-w-7xl mx-auto relative z-0'
+        className='container mx-auto position-relative'
       >
         <span className='hash-span' id={idName}>
           &nbsp;

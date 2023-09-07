@@ -15,9 +15,9 @@ import welcome from '../assets/welcome.json'
 import About from './About'
 import dev from '../assets/dev.json'
 import Portfolio from './Portfolio'
-import Contact from './Contact'
+import Contact from './Contact/Contact'
 import Tech from './Tech/Tech'
-import MainSection from './MainSections'
+import { StarsCanvas } from './canvas'
 
 export default function SplitScreen() {
   return (
@@ -57,10 +57,12 @@ export default function SplitScreen() {
         </Flex>
       </Stack>
     </div>
- <MainSection/>
+ <About/>
     <Portfolio  />
-
     <Tech/>
+    <div>
+    <Contact/>
+    </div>
     </>
   )
 }
