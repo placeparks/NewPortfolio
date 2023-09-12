@@ -61,16 +61,19 @@ const Contact = () => {
   e.target.reset();
 };
 
+const divWidth = window.innerWidth <= 768 ? '100%' : '80%';
+
+
   return (
-    <div id="contact" className="position-relative row mt-5 text-white p-5" >
+<div id="contact" className="position-relative row mt-5 text-white p-5" style={{ overflowX: 'hidden' }}>
       <StarsCanvas />
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='col-xl-6 col-lg-6 d-flex align-items-center justify-content-center'
+        className='col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center'
       >
-        <div style={{ backgroundColor: "#333333", padding: "20px" }}>
-          <p>Get in touch</p>
-          <h3>Contact.</h3>
+ <div style={{ backgroundColor: "#333333", padding: "20px", width: divWidth }}>
+              <p>Get in touch</p>
+          <h3>Contact</h3>
           <form ref={form} onSubmit={handleSubmit} className='form-group'>
           <label className='form-label text-white mb-3'>Your Name</label>
           <input
@@ -80,7 +83,6 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="What's your good name?"
             className='form-control bg-dark text-white rounded'
-            style={{width:"70vh"}} 
           />
           <label className='form-label text-white mt-3 mb-3'>Your Email</label>
           <input
@@ -90,7 +92,6 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="What's your web address?"
             className='form-control bg-dark text-white rounded'
-            style={{width:"70vh"}} 
 
           />
           <label className='form-label text-white mt-3 mb-3'>Your Message</label>
@@ -101,7 +102,6 @@ const Contact = () => {
             onChange={handleChange}
             placeholder='What you want to say?'
             className='form-control bg-dark text-white rounded'
-            style={{width:"70vh"}} 
 
           ></textarea>
           <button
@@ -112,15 +112,24 @@ const Contact = () => {
           </button>
         </form>
         </div>
+   
       </motion.div>
 
+      <style jsx>{`
+      @media (max-width: 768px) {
+        .earth-container {
+          zoom: 1.7;
+        }
+      }
+    `}</style>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='col-xl-6 col-lg-6'
+        className='col-xl-6 col-lg-6 col-md-12 col-sm-12 earth-container'
       >
         <EarthCanvas />
       </motion.div>
     </div>
+  
   );
 };
 

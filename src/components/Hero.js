@@ -20,10 +20,13 @@ import Tech from './Tech/Tech'
 import { StarsCanvas } from './canvas'
 
 export default function SplitScreen() {
+  const marginTopValue = useBreakpointValue({ base: "12%", md: "0%" });
+
   return (
     <>
     <div style={{ padding: "5%", backgroundColor: "black" }}>
-      <Stack minH={'80vh'} direction={{ base: 'column', md: 'row' }}>
+  
+<Stack minH={'80vh'} direction={{ base: 'column', md: 'row' }} marginTop={marginTopValue}>
         <Flex flex={1}>
           <LottieLoader animationData={dev} />
         </Flex>
@@ -57,10 +60,10 @@ export default function SplitScreen() {
         </Flex>
       </Stack>
     </div>
- <About/>
+    <About/>
     <Portfolio  />
     <Tech/>
-    <div>
+    <div style={{ padding: "5%", backgroundColor: "black", overflowX: 'hidden' }}>
     <Contact/>
     </div>
     </>

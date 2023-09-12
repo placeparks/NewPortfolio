@@ -12,13 +12,13 @@ import PWAProjects from './components/PWAProjects/PWAProjects';
 import Websites from './components/Websites/Websites';
 import Contact from './components/Contact/Contact';
 import Tech from './components/Tech/Tech'
-
+import React, { useState } from 'react';
 function App() {
+
   return (
-    <div className="App">
-      <BrowserRouter>
+    <div className='App'>
+       <BrowserRouter>
       <Navbar/>
-    <ChatBot /> 
         <Routes>
           <Route path="/" element={<Hero/>}/>
           <Route path="/about" element={<About/>}/>

@@ -9,9 +9,7 @@
   pointer-events: none;
 }
 
-.navbar-nav .dropdown-item:hover {
-  cursor: pointer;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -21,6 +19,18 @@
 
 .navbar-nav .dropdown-item:hover {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .modal-dialog {
+   width: 70%;
+    margin: 1.75rem auto;
+
+  }
+  .modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: hidden;
+  }
 }
 
 
