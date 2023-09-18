@@ -105,7 +105,7 @@
                         {
                             "title": "My Loyalty Card Program",
                             "description": "The Loyalty Card Contract App is a blockchain-based solution that reimagines traditional loyalty programs. Built on the ERC721 standard, each Non-Fungible Token (NFT) acts as a unique loyalty card, complete with specialized features. Cardholders can use a cancel function to burn their NFT, effectively canceling their membership. Additionally, admins have the capability to revoke or update a card's metadata, allowing for dynamic adjustments based on a user's loyalty status. Issued via signature minting, this app is best suited for membership or subscription-based programs that require an extra layer of administrative control." ,
-                            "image": "images/BlockchainProjects/loyaltycard.PNG",
+                            "image": "images/BlockchainProjects/loyaltyCard.PNG",
                             "link": "https://loyalty-card-orpin.vercel.app/"
                           }
         
