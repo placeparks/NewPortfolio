@@ -22,6 +22,12 @@
     "description": "I created a dynamic website using React that seamlessly integrates AI-generated video content to meet my client's unique needs. This project showcases my ability to combine cutting-edge technology with web development to deliver engaging and personalized user experiences.",
     "image": "images/Websites/qrapp.PNG",
     "link": "https://qr-appp.netlify.app/"
+  },
+  {
+    "title": "Word Convertor",
+    "description": "Word Converter is an intuitive and easy-to-use online tool that allows users to manipulate their text in a variety of ways. With features such as word and character counting, upper and lower casing, removing extra spaces, and the ability to copy text, Word Converter is the perfect tool for anyone who needs to edit and format their text quickly and efficiently.",
+    "image": "images/Websites/wordConvertor.PNG",
+    "link": "https://word-convertor.vercel.app/"
   }
   
   
