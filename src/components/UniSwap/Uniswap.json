@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Uniswap Clone Decentralized Exchange Platform",
+        "description":"A complete, operational DEX clone deployed on Goerli Testnet with custom smart contracts, offering an intuitive interface and seamless trading between LINK and WETH tokens. This platform showcases advanced liquidity and AMM strategies within the DeFi space, live on Vercel for demo.",
+        "image": "images/Uniswap/uniswapclone.PNG",
+        "link": "https://uniswap-bice.vercel.app/"
+      },
+      
+      {
+        "title": "Uniswap V3 Interface Simulation",
+        "description": "A dynamic simulation of the Uniswap V3 swapping interface, focusing on the streamlined exchange of Ethereum (ETH) to Uniswap (UNI) tokens. The interface is meticulously crafted to provide an authentic user experience, with attention to detail that mirrors the sophisticated mechanism of Uniswap's latest iteration. By replicating the core features, it demonstrates a profound grasp of smart contract integration and the Ethereum blockchain, offering users a glimpse into the future of DeFi trading.",
+        "image": "images/Uniswap/uniswapv3.PNG",
+        "link": "https://uniswap-interface-umber-ten.vercel.app/"
+      },
+      
+    {
+        "title": "Uniswap V2 Interface & Pool Management",
+        "description": "This project is a full-fledged reimplementation of the Uniswap V2 protocol's interface, encompassing all the core functionalities such as token swapping and liquidity pool creation. It replicates the fluid, user-friendly experience of Uniswap's decentralized trading, while also integrating advanced features that allow users to contribute to liquidity pools, thus earning transaction fees as liquidity providers. The interface is designed to be intuitive, enabling seamless navigation and interaction with the smart contracts that underpin the exchange mechanism. Deployed for testing and demonstration, this application offers a hands-on experience of decentralized finance (DeFi) operations on the Ethereum network.",
+        "image": "images/Uniswap/univ2.PNG",
+        "link": "https://uniswap-interfacev2.vercel.app/"
+      }
+   
+  ]

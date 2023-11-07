@@ -4,7 +4,7 @@ import BlockchainProjects from './BlockchainProjects/BlockchainProjects'
 import MernProjects from './MERNStack/MernProjects'
 import PWAProjects from './PWAProjects/PWAProjects'
 import Websites from './Websites/Websites'
-
+import Uniswap from './UniSwap/UniswapProjects'
 
 function Portfolio() {
   return (
@@ -16,6 +16,7 @@ function Portfolio() {
 <MernProjects/>
 <PWAProjects/>
 <Websites/>
+<Uniswap/>
     </div>
   )
 }

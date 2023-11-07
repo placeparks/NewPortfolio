@@ -45,6 +45,9 @@ const Navbar = () => {
       <li>      <Link className="dropdown-item" to="websites" smooth={true} duration={1000}>
        Websites
       </Link></li>
+      <li>      <Link className="dropdown-item" to="uniswap" smooth={true} duration={1000}>
+       Uniswap Apps
+      </Link></li>
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>

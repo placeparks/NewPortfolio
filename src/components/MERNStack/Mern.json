@@ -22,6 +22,12 @@
           "description": "I designed a MERN project that presents information in the format of a periodic table. This interactive application enables users to build customized 'periodic tables' with the ability to compare, delete, and block specific elements. It showcases my expertise in full-stack development and creating unique, interactive representations of data",
           "image": "images/Mern/map.PNG",
           "link": "https://dashboard-map-iota.vercel.app/"
+        },
+        {
+          "title": "Ecommerce Store",
+          "description": "Built on the MERN stack and enhanced with Redux for streamlined state management, this E-Commerce store delivers a dynamic, user-friendly shopping experience. It fetches real-time product listings via RESTful APIs and ensures secure transactions through Stripe integration, epitomizing a balanced blend of design, functionality, and security in contemporary e-commerce solutions.",
+          "image": "images/Mern/store.PNG",
+          "link": "https://ecommerce-nine-alpha.vercel.app/"
         }
 
 ]
