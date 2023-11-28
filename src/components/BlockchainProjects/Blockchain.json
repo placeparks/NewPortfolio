@@ -115,11 +115,17 @@
                    "image": "images/BlockchainProjects/evolvingnfts.PNG",
                    "link": "https://evolving-nfts.vercel.app/"
                   },
-     {
+                 {
                   "title": "Gasless Time-Locked NFT Calendar",
                   "description": "A pioneering NFT project where collectibles are locked until their specific minting date and time. It's designed for demo purposes, showcasing a gasless system where users can log in with their email to generate a smart wallet, enabling easy and cost-free NFT claiming. This project demonstrates innovation in blockchain technology, offering a unique, user-friendly experience in the NFT space." ,
                    "image": "images/BlockchainProjects/calender.PNG",
                    "link": "https://nft-calender.vercel.app/"
+                  },
+                 {
+                  "title": "Hangman’s Token Quest",
+                  "description": "Sign in with your Google, Apple, or Facebook account to play a fun game of Hangman. Win the game and collect 10 tokens as a reward! It's a simple, engaging way to introduce players to blockchain technology through gameplay." ,
+                   "image": "images/BlockchainProjects/hangman.PNG",
+                   "link": "https://hangman-lyart.vercel.app/"
                   }
   ]
   
