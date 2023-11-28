@@ -34,6 +34,12 @@
     "description": "This interactive game is designed for children, offering a fun and educational way to play hangman. With a variety of categories to choose from, kids can enjoy the classic word puzzle while learning new words and concepts.",
     "image": "images/Websites/kidshangman.PNG",
     "link": "https://kids-hangman-5k7vbpjbv-placeparks.vercel.app/"
+  },
+  {
+    "title": "Visa Consultancy",
+    "description": "This project demonstrates a dynamic fusion of React and Three.js, showcasing advanced animation skills and interactive web development capabilities. It serves as a testament to proficiency in creating visually stunning and responsive user interfaces, leveraging the power of React for structure and Three.js for immersive animations.",
+    "image": "images/Websites/visa.PNG",
+    "link": "https://visa-consultancy.vercel.app/"
   }
   
 
