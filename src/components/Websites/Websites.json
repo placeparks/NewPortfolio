@@ -28,8 +28,13 @@
     "description": "Word Converter is an intuitive and easy-to-use online tool that allows users to manipulate their text in a variety of ways. With features such as word and character counting, upper and lower casing, removing extra spaces, and the ability to copy text, Word Converter is the perfect tool for anyone who needs to edit and format their text quickly and efficiently.",
     "image": "images/Websites/wordConvertor.PNG",
     "link": "https://word-convertor.vercel.app/"
+  },
+  {
+    "title": "Hangman",
+    "description": "This interactive game is designed for children, offering a fun and educational way to play hangman. With a variety of categories to choose from, kids can enjoy the classic word puzzle while learning new words and concepts.",
+    "image": "images/Websites/kidshangman.PNG",
+    "link": "https://kids-hangman-5k7vbpjbv-placeparks.vercel.app/"
   }
-  
   
 
 ]
