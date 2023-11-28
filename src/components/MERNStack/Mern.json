@@ -28,6 +28,12 @@
           "description": "Built on the MERN stack and enhanced with Redux for streamlined state management, this E-Commerce store delivers a dynamic, user-friendly shopping experience. It fetches real-time product listings via RESTful APIs and ensures secure transactions through Stripe integration, epitomizing a balanced blend of design, functionality, and security in contemporary e-commerce solutions.",
           "image": "images/Mern/store.PNG",
           "link": "https://ecommerce-nine-alpha.vercel.app/"
+        },
+         {
+          "title": "Anime Website",
+          "description":"This application demonstrates my ability to integrate external data sources and present them in a user-friendly format, highlighting my skills in [relevant skills like API integration, front-end development].",
+          "image": "images/Mern/anime.PNG",
+          "link": "https://anime-project-teal.vercel.app/"
         }
 
 ]
