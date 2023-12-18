@@ -71,15 +71,15 @@ const Navbar = () => {
   
           </ul>
         </li>
-        <button onClick={toggleChat} className="btn btn-primary d-md-inline-block d-lg-none">
+        {/*<button onClick={toggleChat} className="btn btn-primary d-md-inline-block d-lg-none">
     Chatbot
-  </button>
+  </button>*/}
       </div>
     </div>
   </div>
-  <button onClick={toggleChat} className="btn btn-primary d-md-inline-block d-none">
+ {/* <button onClick={toggleChat} className="btn btn-primary d-md-inline-block d-none">
                 Chatbot
-              </button>
+</button>*/}
             </nav>
             <div className={`modal ${showChat ? 'show d-block' : 'd-none'}`} tabIndex="-1" style={{ overflow: "auto" }}>
   <div className="modal-dialog modal-dialog-centered" style={{ width: "100%", margin: "0", left: "0" }}>
