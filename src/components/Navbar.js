@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-scroll';
-
+import { NavLink } from "react-router-dom";
 import Chatbot from './ChatBot'; // Import your Chatbot component
 
 const Navbar = () => {
@@ -52,6 +52,25 @@ const Navbar = () => {
         </li>
         <Link className="nav-link" to="tech" smooth={true} duration={1000}>Technologies</Link>
         <Link className="nav-link" to="contact" smooth={true} duration={1000}>Contact</Link>
+           <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          My Tools
+          </a>
+          <ul className="dropdown-menu">
+    <li>
+      <NavLink className="dropdown-item" to="https://image-generator-dalle-5f504a8b5537.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Image Generator
+      </NavLink>
+    </li>
+    <li>    <NavLink className="dropdown-item" to="https://grammar-check-baa58ce59eec.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Grammar Check
+      </NavLink></li>
+      <li>  <NavLink className="dropdown-item" to="https://socialmedia-post-generator-43bba1126621.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Socialmedia Post Generator
+      </NavLink> </li>
+  
+          </ul>
+        </li>
         <button onClick={toggleChat} className="btn btn-primary d-md-inline-block d-lg-none">
     Chatbot
   </button>
