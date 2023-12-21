@@ -74,7 +74,9 @@ const Navbar = () => {
       <li>  <NavLink className="dropdown-item" to="https://socialmedia-post-generator-43bba1126621.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Socialmedia Post Generator
       </NavLink> </li>
-  
+       <li>  <NavLink className="dropdown-item" to="https://mediafiles.botpress.cloud/4f6866ad-43e3-4ed7-96a1-ec495d4d3052/webchat/bot.html" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Pakistan Constitutional Helper
+      </NavLink> </li>
           </ul>
         </li>
         {/*<button onClick={toggleChat} className="btn btn-primary d-md-inline-block d-lg-none">
