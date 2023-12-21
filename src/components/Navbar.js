@@ -65,6 +65,12 @@ const Navbar = () => {
     <li>    <NavLink className="dropdown-item" to="https://grammar-check-baa58ce59eec.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Grammar Check
       </NavLink></li>
+      <li>    <NavLink className="dropdown-item" to="https://gitdescriptionbot-57d23e2b5f50.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Github Bot
+      </NavLink></li>
+      <li>    <NavLink className="dropdown-item" to="https://airesume-generator-a20b961d3ccb.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Resume Generator
+      </NavLink></li>
       <li>  <NavLink className="dropdown-item" to="https://socialmedia-post-generator-43bba1126621.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Socialmedia Post Generator
       </NavLink> </li>
