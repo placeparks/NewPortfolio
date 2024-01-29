@@ -71,6 +71,9 @@ const Navbar = () => {
       <li>    <NavLink className="dropdown-item" to="https://gitdescriptionbot-fc3daf77924a.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Github Bot
       </NavLink></li>
+      <li>    <NavLink className="dropdown-item" to="https://code-helper01-8a35dbc8a438.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Code Helper
+      </NavLink></li>
       <li>    <NavLink className="dropdown-item" to="https://airesume-generator-a20b961d3ccb.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Resume Generator
       </NavLink></li>
