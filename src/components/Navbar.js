@@ -58,26 +58,29 @@ const Navbar = () => {
           </a>
           <ul className="dropdown-menu">
     <li>
-      <NavLink className="dropdown-item" to="https://image-generator-dalle-5f504a8b5537.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      <NavLink className="dropdown-item" to="https://image-generator-u1hs.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Image Generator
       </NavLink>
     </li>
-    <li>    <NavLink className="dropdown-item" to="https://grammar-check-baa58ce59eec.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+    <li>    <NavLink className="dropdown-item" to="https://grammar-check.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Grammar Check
       </NavLink></li>
-       <li>    <NavLink className="dropdown-item" to="https://text-to-speech01-beb9ef261cad.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+       <li>    <NavLink className="dropdown-item" to="https://text-to-speech-bjwo.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Text-to-Speech
       </NavLink></li>
-      <li>    <NavLink className="dropdown-item" to="https://gitdescriptionbot-fc3daf77924a.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      <li>    <NavLink className="dropdown-item" to="https://gitbot-kq64.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Github Bot
       </NavLink></li>
-      <li>    <NavLink className="dropdown-item" to="https://code-helper01-8a35dbc8a438.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      <li>    <NavLink className="dropdown-item" to="https://code-helper-gzax.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Code Helper
       </NavLink></li>
-      <li>    <NavLink className="dropdown-item" to="https://airesume-generator-a20b961d3ccb.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      <li>    <NavLink className="dropdown-item" to="https://resume-creator.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Resume Generator
       </NavLink></li>
-      <li>  <NavLink className="dropdown-item" to="https://socialmedia-post-generator-43bba1126621.herokuapp.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+    <li>    <NavLink className="dropdown-item" to="https://landingpage-analyzer.onrender.com" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
+      Landingpage Analyzer
+      </NavLink></li>
+      <li>  <NavLink className="dropdown-item" to="https://socialmedia-post-generator.onrender.com/" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
       Socialmedia Post Generator
       </NavLink> </li>
        <li>  <NavLink className="dropdown-item" to="https://mediafiles.botpress.cloud/4f6866ad-43e3-4ed7-96a1-ec495d4d3052/webchat/bot.html" target="_blank" rel="noreferrer" smooth={true} duration={1000}>
