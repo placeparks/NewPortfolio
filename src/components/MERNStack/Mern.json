@@ -40,5 +40,11 @@
           "description":"Developed an innovative e-commerce platform using Sanity for seamless content management and Next.js for a dynamic, responsive user interface. This project showcases my ability to integrate cutting-edge technologies to create a fast, scalable, and user-friendly online shopping experience.",
           "image": "images/Mern/sanitystore.png",
           "link": "https://my-store-beige.vercel.app/"
+        },
+          {
+          "title": "Perfume Store",
+          "description":"Developed a bespoke e-commerce platform dedicated to luxury perfumes, offering a seamless and elegant shopping experience. This user-friendly site features quick load times, a secure checkout process, and a sensory-rich interface designed to entice fragrance enthusiasts.",
+          "image": "images/Mern/perfume.png",
+          "link": "https://perfume-store-mu.vercel.app/"
         }
 ]
